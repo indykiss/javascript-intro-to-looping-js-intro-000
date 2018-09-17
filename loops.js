@@ -23,20 +23,15 @@ function whileLoop(n){
 
 
 var i = 0;
- 
 function incrementVariable() {
   i = i + 1;
 }
  
 
-
 function doWhileLoop(arr){
-  
   do {arr = arr.pop;
   incrementVariable();}
-  
   while (arr.length > 0)
-
   return arr
 }
 
